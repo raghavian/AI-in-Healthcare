@@ -34,4 +34,20 @@
 
 [4] Lin, Tsung-Yi, et al. "Microsoft coco: Common objects in context." Computer vision–ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part v 13. Springer International Publishing, 2014.
 
-[5]  
+[5] Foundation Model Challenge for Brain MRI. (2025) https://fomo25.github.io/
+
+[6] Petersen, Ronald Carl, et al. "Alzheimer's disease Neuroimaging Initiative (ADNI) clinical characterization." Neurology 74.3 (2010): 201-209.
+
+[7] Clark, Kenneth, et al. "The Cancer Imaging Archive (TCIA): maintaining and operating a public information repository." Journal of digital imaging 26 (2013): 1045-1057.  
+
+[8] Staal J. J., Abramoff M. D., Niemeijer M., Viergever M. A., van Ginneken B. Digital Retinal Image for Vessel Extraction (DRIVE) Database. (2004)
+
+[9] Litjens, Geert, et al. "1399 H&E-stained sentinel lymph node sections of breast cancer patients: the CAMELYON dataset." GigaScience 7.6 (2018): giy065.
+
+[10] Thomee, Bart, et al. "Yfcc100m: The new data in multimedia research." Communications of the ACM 59.2 (2016): 64-73. 
+
+[11] Kuznetsova, Alina, et al. "The open images dataset v4: Unified image classification, object detection, and visual relationship detection at scale." International journal of computer vision 128.7 (2020): 1956-1981.
+
+[12] Bycroft, Clare, et al. "The UK Biobank resource with deep phenotyping and genomic data." Nature 562.7726 (2018): 203-209.
+
+[13] Weinstein, John N., et al. "The cancer genome atlas pan-cancer analysis project." Nature genetics 45.10 (2013): 1113-1120.  
