@@ -17,9 +17,8 @@ matplotlib.rcParams.update(params)
 
 # Prepare the data
 df = pd.read_csv('datasets.csv')
-pdb.set_trace()
 # Plot setup
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(14, 8))
 markers = {'vision': 'o', 'medical': 's'}
 colors = {'vision': 'tab:blue', 'medical': 'tab:red'}
 
@@ -39,7 +38,7 @@ for _, row in df.iterrows():
     plt.annotate(
         row['dataset'],
         xy=(row['year'], row['pixels']),
-        xytext=(5, 5),
+        xytext=(35, 5),
         textcoords='offset points',
         ha='center',
         va='bottom',
@@ -52,7 +51,10 @@ plt.ylim([10e6,10e19])
 #plt.xlabel('Year', fontsize=12)
 plt.ylabel('Total Pixels (log scale)')
 #plt.title('Total Number of Pixels per Dataset Over Time')
-plt.xticks(range(2004, 2027, 5))
+#plt.rcParams['axes.spines.right'] = False
+#plt.gca().set_frame_on(False)
+plt.gca().spines['right'].set_visible(False)
+plt.gca().spines['top'].set_visible(False)
 plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 plt.legend(title='Dataset Type')
 plt.tight_layout()
