@@ -1,4 +1,8 @@
-# AI-in-Healthcare
+# README
+
+This repository contains the official data and source code for
+"[On the Sustainability of Large-Scale Artificial Intelligence in Healthcare"](https://arxiv.org/)", Raghavendra Selvan. 2025
+
 
 ### Method
 
@@ -7,6 +11,8 @@
 * For datasets where there were no official websites or publications, sample data was downloaded and checked manually. 
 
 * When a dataset contained images of varying resolutions, then the average resolution per axis was used.
+
+* For data with multiple channels or sequences, they were populated along the z-axis for ease.
 
 ### Data sources
 
