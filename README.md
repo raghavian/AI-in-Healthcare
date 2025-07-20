@@ -4,6 +4,7 @@ This repository contains the official data and source code for
 "[On the Sustainability of Large-Scale Artificial Intelligence in Healthcare"](https://arxiv.org/)", Raghavendra Selvan. 2025
 
 
+
 ### Method
 
 * Official websites or publications for each of the datasets were checked to see if details like _number of samples, image resolution_ were provided. If yes, these were used. 
